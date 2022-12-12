@@ -9,13 +9,3 @@ services:
       - ./:./
     ports:
       - 8004:8000
-    environment:
-      ENVIRONMENT: dev
-      TESTING: 0
-      MONGODB_URL: mongodb+srv://hunters_user:hunters@cluster0.fj4um.mongodb.net/?retryWrites=true&w=majority
-      ADMIN: 5257089676
-      TOKEN: 1068349234:AAGI4h52nTaOxG-AGObNoADR4WmUonS9CaM
-      GROUP: https://t.me/swingerstrading
-      SERVER_URL: https://growthbot.fugoku.com
-      API_ID: 11381932
-      API_HASH: c975218c832b4d70bca27fc61a0c8919
